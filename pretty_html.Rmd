@@ -22,7 +22,7 @@ The goal of this R Markdown html challenge is to give you an opportunity to play
 
 *If you can't find the exact image, just find a comparable from the PhD Comics website and include it in your markdown*
 
-# Here's a header!
+### Here's a header!
 Let’s be honest, this header is a little arbitrary. But show me that you can reproduce headers with different levels please. This is a level 3 header, for your reference (you can most easily tell this from the table of contents).
 
 #### Another header, now with maths
