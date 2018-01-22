@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # R Markdown PDF Challenge
 The following assignment is an exercise for the reproduction of this .html document using the RStudio and RMarkdown tools we’ve shown you in class. Hopefully by the end of this, you won’t feel at all the way this poor PhD student does. We’re here to help, and when it comes to R, the internet is a really valuable resource. This open-source program has all kinds of tutorials online. 
+
 ![http://phdcomics.com/ Comic posted 1-17-2018](http://www.phdcomics.com/comics/archive/phd011718s.gif)
 
 ## Challenge Goals
