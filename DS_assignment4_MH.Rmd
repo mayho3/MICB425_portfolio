@@ -1,0 +1,54 @@
+---
+title: "DS_assignment4"
+author: "May Ho"
+date: "February 16, 2018"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## DS Assignment 4
+
+### Figures
+
+
+```{r}
+library(tidyverse)
+source("https://bioconductor.org/biocLite.R")
+biocLite("phyloseq")
+load("phyloseq_object.RData")
+metadata <- read.table(file="Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t")
+library(phyloseq)
+
+ggplot(metadata, aes(x=NH4_uM, y=Depth_m)) +
+  geom_point(shape=17, color="purple")
+
+metadata %>% 
+  mutate(Temperature_F = (Temperature_C*9/5)+ 32) %>%
+  ggplot() + geom_point(aes(x=Temperature_F, y=Depth_m))
+
+physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
+plot_bar(physeq_percent, fill="Genus") + 
+  geom_bar(aes(fill=Genus), stat="identity") +
+  labs(x= "Sample Depth") +
+  labs(y= "Percent relative abundace") + 
+  labs(title = "Phyla from 10 to 200m in Saanich Inlet")
+
+metadata %>%
+  select(Depth_m,O2_uM, PO4_uM, SiO2_uM, NO3_uM, NH4_uM, NO2_uM) %>%
+  gather("Nutrients", "nutrient_concentration", O2_uM:NO2_uM)%>%
+  ggplot() + geom_point(aes(x=Depth_m, y=nutrient_concentration)) + 
+  facet_wrap(~Nutrients)
+
+
+```
+
+
+
+
+```
+
+
