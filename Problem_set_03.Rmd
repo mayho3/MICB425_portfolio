@@ -1,0 +1,58 @@
+---
+title: "Problem Set_03"
+author: "Student Name (Student ID)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+### Problem set_03 “Metagenomics: Genomic Analysis of Microbial Communities”
+#### Learning objectives: 
+Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
+*(Reminders for how to format links, etc in RMarkdown are in the RMarkdown Cheat Sheets)*
+
+#### Specific Questions:
+* How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
+  - 60 major of lines of descent
+  - half have no culturered representatives  
+  
+  - 2016
+    - 89 bacterial phyla
+    - 20 archael phyla
+    - via small 16 s rRNA databases 
+
+https://www.nature.com/articles/nature12352
+  
+* How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from? 
+  - EBI has a total of 1469 projects 
+  - sourced from biomes such as engineered wastewater, freshwater, host-associated (human or nonhuman), marine, soil (forest) 
+  - https://www.ebi.ac.uk/metagenomics/projects
+  - look up IMG-M projects
+
+* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)? 
+  - [MG-RAST: multi-step workflow that cleans data, clustering and storage](https://metagenomics.anl.gov/) 
+  - [IMG/M: data storage, management, analysis and annotation of genome](https://img.jgi.doe.gov/cgi-bin/m/main.cgi) 
+  - [METAPREP: open browser for annotation and analysis](http://jcvi.org/metarep/) 
+  - NCBI databases 
+  - SILVA and RDP EBI are the gold standard for marker gene metagenomics
+
+* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis? 
+  - phylogenetic anchors: use slowly evolving marker genes (16S rRNA, 18S rRNA) to predict taxonomic origins of enviornmental genomic fragments (very conserved) 
+    - vertical transmission
+    - typically single-copy, don't need to code for functioning protein 
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2367736/
+  - functional gene anchors: genes linked to directly biogeochemical function
+    - evole quicker, single-copy
+    - ex. RUBISCO
+
+* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms? 
+  - placing sequence with its correct OTU
+  - composition-based binning: GC content of bacterial genome, Markov models based on k-mer frequencies 
+    - closer OTUs have higher frequency of being misclassified 
+  - similarity-based binning: find similarities to reference sequences 
+    - samples should have significant similarities to reference 
+  - Wooley paper 
+    
+* Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  
+  - functional screens 
+  - 3rd generation single-cell sequencing 
+  - FISH: probe for specific sequences 
+  - nanpore: single molecule sequencing

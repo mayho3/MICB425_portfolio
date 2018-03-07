@@ -1,0 +1,40 @@
+---
+title: "Problem Set_02"
+author: "Student Name (Student ID)"
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+### Problem set_02 “Microbial Engines”
+#### Learning objectives: 
+Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles.
+
+#### Specific Questions:
+* What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected? 
+- The primary geophysical processs is tectonics and the atmospheric protochemical process is the biochemical process that create geochemical cycles. 
+- abiotic processes are based on acid/base chemistry
+- biotic processes are dependent on redox reactions
+- abiotic processes are a source of nutrients for biotic reactions  
+
+* Why is Earth’s redox state considered an emergent property? 
+- biogechemical cycles of microbial life evolved to form nested abiotically driven acid-base redox reactions 
+- these reactions over time altered the redox state of the planet
+- result of a collective complex system made up of individual microbes  
+
+* How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow? 
+- the reduction or oxidation of elements allows them to assimilate or dissmilate nutrients, leading to the recycling of nutrient cycles 
+- overcome thermodynamic barriers with synergistic cooperation of multispeicies assemblages  
+
+
+* Using information provided in the text, describe how the nitrogen cycle partitions between different redox “niches” and microbial groups. Is there a relationship between the nitrogen cycle and climate change?   
+  - NH~4~^+^ is oxidized in a two-step manner, first requiring a group of Bacteria or Archaea to oxidize ammonia to NO~2~^-^, then oxidized to NO~3~+-+ by different suite of nitrifying bacteria 
+  - third set of microbes uses NO~2~+-+ and NO~3~+-+ as electron acceptors to form N~2~ 
+  - incomplete reduction of nirate or nitrite due to excess nitrogen being introduced to the nitrogen cycle leads to accumulation of nitrous oxide
+  - nitrous oxide is a potent greenhosue gass that contributes to global warming  
+
+* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+  - linear relationship between number of nonreduandant (diverse) microbiaal seuqneces and the discovery of new protein families 
+  - but metabolic machinery is highly conserved between microbes, so microbial diversity does not lead to metabolic diversity  
+  
+* On what basis do the authors consider microbes the guardians of metabolism? 
+  - microbes have core planetary gene set dispersed to them through vertical or horizontal gene transfer allow them to protect the metabolic pathway    
+

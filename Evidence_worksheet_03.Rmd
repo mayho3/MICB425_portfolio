@@ -1,0 +1,47 @@
+---
+title: "Evidence_worksheet_03"
+author: "May Ho"
+date: "March 1, 2018"
+output: html_document
+---
+
+## Origins and Earth Systems
+### Evidence worksheet 03
+
+[Rockstrom *et al* 2009](https://www.nature.com/articles/461472a)
+
+#### Learning objectives
+Evaluate human impacts on the ecology and biogechemistry of Earth systems.  
+
+#### General questions
+* What were the main questions being asked? 
+  - How to define preconditions for human development? 
+  - What are the consequences of crossing certain biophysical thresholds?   - Three of nine interlinked planetary boundaries have already been overstepped? 
+
+* What were the primary methodological approaches used?  
+  - thresholds can be defined by a critical value for one or more control variables (eg. [CO~2~]) 
+  
+* Summarize the main results or findings.  
+  - Nine processes that is necessary to define planetary boundaries 
+    1. Climate change 
+    2. Rate of biodiversity loss 
+    3. Nitrogen and Phosphorus Cycle interference 
+    4. Stratospheric Ozone depletion 
+    5. Ocean acidification 
+    6. Global fresh-water use
+    7. Change in land use
+    8. Chemical pollution 
+    9. Atmospheric aerosol loading 
+  - Three were transgressed: 1, 2, 3
+  - Human changes to atmospheric CO~2~ concentrations should not exceed 350 parts per million by volume 
+  - Extinction rate as an alternative indicator: Planetary boundary for biodiversity of ten times the background rates. 
+  - Nitrogen valve should contain the flow of new reactive nitrogen to 25% of its current value. 
+  - No more than 11 million tonnes of phosphorus per year should be dumped ino the ocean. 
+
+* Do new questions arise from the results? 
+  - how do humans go about achieiving these boundaries? 
+  - are these goals realistic? 
+  - what are some preliminary measures we can consider to reach these goals?
+	
+* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+	

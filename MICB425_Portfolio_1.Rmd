@@ -98,39 +98,43 @@ What is the total amount of cellular carbon produced by these prokaryotes on ear
 To count prokaryotes 
 	- aquatic environments: used cellular density 
 	- soil: direct counts from a coniferous forest ultisol (cells/g) 
-		○ unpublished field studies of E. A. Paul for cultivated soils 
+		-  unpublished field studies of E. A. Paul for cultivated soils 
 		- terrestrial subsurface 
-		○ unconsolidated sediments represent most of marine subsurface and have been determined 
-		○ assuming that average porosity of terrestrial subsurface is 3% 
-		○ estimation from groundwater data based on values from seven sites and four studies 
+		- unconsolidated sediments represent most of marine subsurface and have been determined 
+		- assuming that average porosity of terrestrial subsurface is 3%
+		- estimation from groundwater data based on values from seven sites and four studies   
+
 Other Habitats: 
 	- animals 
-		○ human: cell density of prokaryotes on the skin multiply by skin surface area 
-		○ insects like termite by counting number of insect and number of prokaryotes in said insect 
-		○ leaves: can be estimated by assuming a dense population and high leaf area index  
-		○ air: pre-calculated 
+		- human: cell density of prokaryotes on the skin multiply by skin surface area 
+		- insects like termite by counting number of insect and number of prokaryotes in said  insect 
+		- leaves: can be estimated by assuming a dense population and high leaf area index  
+		- air: pre-calculated 
 Carbon Content: 
 	- estimated from cell numbers in soil, aquatic systems, and the subsurface 
-		○ cellular carbon is assumed to be one-half of dry weight for soil and subsurface 
-		○ take average dry weight of prokaryotic cells  multiple by number of cell 
-	- aquatic systems: assumed that average cellular carbon for sedimentary and planktonic  prokaryotes to be 10 and 20 fg of C/cell respectively then multiple that with number of cells in aquatic systems 
+		-  cellular carbon is assumed to be one-half of dry weight for soil and subsurface 
+		- take average dry weight of prokaryotic cells  multiple by number of cell 
+	- aquatic systems: assumed that average cellular carbon for sedimentary and planktonic  prokaryotes to be 10 and 20 fg of C/cell respectively then multiple that with number of cells in aquatic systems  
 
 * Summarize the main results or findings.  
 	- Total number of prokaryotes is 4-6 x 1030 cells and 350-500 Pg of C (1 Pg = 1015 g) 
-	- Represent the largest pool of nutrients such as N and P  
-Essentially, prokaryotic biomass as a major contributor to total biosphere  
+	- Represent the largest pool of nutrients such as N and P 
+Essentially, prokaryotic biomass as a major contributor to total biosphere 
 
 * Do new questions arise from the results? 
-	- what is the genetic diversity of these prokaryotes? 
+	- what is the genetic diversity of these prokaryotes?  
 	- The number of prokaryotic species? 
 How does prokaryotic turnover affect carbon fixation and carbon cycle? 
 
 * Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
 	- bombards you with numbers  
 	- inadequate explanation of some assumptions made especially when estimating carbon content 
-		○ can be found in literature however 
+	- can be found in literature however 
 	- assumed that the papers they cited had the proper methods  
 	- lots of estimation of cell densities 
+
+```{r child = "Evidence_worksheet_02.Rmd"}
+```
 
 
 ### Problem set 01
@@ -160,7 +164,7 @@ Since the temperature drop is 22 degrees drop per km so the deepest part that ca
 * Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
 22 km on top of the 8.8 km on Mt. Everest. A limiting factor at that height would be obtaining enough nutrients. 
 
-* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth’s biosphere measured in km?  
+* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
 
 22 + 8.8 + 10.9 + 5 = 46.7 km
 
@@ -182,11 +186,14 @@ Since the temperature drop is 22 degrees drop per km so the deepest part that ca
     
 * Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
 
-Prokaryotes would have high genetic diversity and the ability to adapt quickly dude to their high mutation rate. Insertions and deletions are generally detrimental to a gene's function since they shift the reading frame so point mutations tend to be the most common, but there's potential for these type of mutations to promote genetic diversity. 
+  - Prokaryotes would have high genetic diversity and the ability to adapt quickly dude to their high mutation rate. Insertions and deletions are generally detrimental to a gene's function since they shift the reading frame so point mutations tend to be the most common, but there's potential for these type of mutations to promote genetic diversity. 
 
 * What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
 
-High prokaryotic abundance encourages the diversification of metabolic capabilities in prokaryotes. There are more likely to be more mutations taking place in a larger population of prokaryotes that allow them to fully take advantage of their environment and compete for different resources. 
+  - High prokaryotic abundance encourages the diversification of metabolic capabilities in prokaryotes. There are more likely to be more mutations taking place in a larger population of prokaryotes that allow them to fully take advantage of their environment and compete for different resources. 
+
+```{r child = "Problem_set_02.Rmd"}
+```
 
 ### Module 01 references
 Utilize this space to include a bibliography of any literature you want associated with this module. We recommend keeping this as the final header under each module.
@@ -194,3 +201,10 @@ Utilize this space to include a bibliography of any literature you want associat
 An example for Whitman and Wiebe (1998) has been included below.
 
 Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+Kasting JF, Siefert JL. 2002. Life and the evolution of earth â€TM s atmosphere. Library (Lond) 296:1066–1069.
+
+Canfield DE, Glazer AN, Falkowski PG. 2010. The evolution and future of earth’s nitrogen cycle. Science (80- ) 330:192–196.
+
+Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive earth’s biogeochemical cycles. Science (80- ) 320:1034–1039.
+
