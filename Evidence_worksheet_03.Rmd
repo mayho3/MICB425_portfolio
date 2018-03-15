@@ -5,7 +5,6 @@ date: "March 1, 2018"
 output: html_document
 ---
 
-## Origins and Earth Systems
 ### Evidence worksheet 03
 
 [Rockstrom *et al* 2009](https://www.nature.com/articles/461472a)

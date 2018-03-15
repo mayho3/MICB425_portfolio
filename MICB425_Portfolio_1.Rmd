@@ -60,15 +60,25 @@ Detail the code you used to create, initialize, and push your portfolio repo to 
 
 In Git: 
 mkdir MICB425_portfolio 
+
 cd MICB425_portfolio 
+
 cd MICB425_portfolio 
+
 Create repository on GitHub page. 
+
 git init 
+
 git add . 
+
 git commit -m "First commit" 
+
 git remote add origin https://remote_repository_URL 
+
 git remote -v 
+
 git push -u origin master 
+
 
 ### RMarkdown pretty html challenge
 Paste your code from the in-class activity of recreating the example html.
@@ -136,6 +146,8 @@ How does prokaryotic turnover affect carbon fixation and carbon cycle?
 ```{r child = "Evidence_worksheet_02.Rmd"}
 ```
 
+```{r child = "Evidence_worksheet_03.Rmd"}
+```
 
 ### Problem set 01
 #### Learning objectives: 
