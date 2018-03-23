@@ -14,8 +14,8 @@ Evaluate human impacts on the ecology and biogechemistry of Earth systems.
 
 #### General questions
 * What were the main questions being asked? 
-  - How to define preconditions for human development? 
-  - What are the consequences of crossing certain biophysical thresholds?   - Three of nine interlinked planetary boundaries have already been overstepped? 
+   - How to define preconditions for human development? 
+   - What are the consequences of crossing certain biophysical thresholds?   - Three of nine interlinked planetary boundaries have already been overstepped? 
 
 * What were the primary methodological approaches used?  
   - thresholds can be defined by a critical value for one or more control variables (eg. [CO~2~]) 

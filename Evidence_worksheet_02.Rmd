@@ -4,82 +4,80 @@ author: "Cheng Ching Ho (31824139)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---
-### Evidence Worksheet_02 “Life and the Evolution of Earth’s Atmosphere”
+### Evidence Worksheet_02 Life and the Evolution of Earth’s Atmosphere
 #### Learning objectives: 
 Comment on the emergence of microbial life and the evolution of Earth systems
     
     
 * Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so. 
 
-    + 4.6 billion years ago 
-    - Formation of Earth  
+    + 4.6 billion years ago  
+     Formation of Earth  
     
     + 4.5 billion years ago  
-    - Moon was formed to give Earth  spin & tilt, day & night cycles, seasons  
+     Moon was formed to give Earth  spin & tilt, day & night cycles, seasons  
     
-    + 4.4 billion years ago
-    - oldest mineral found (zircon)  
+    + 4.4 billion years ago  
+     oldest mineral found (zircon)  
     
     + 4.1 billion years ago  
-    - earliest evidence of life in zircon  
+     earliest evidence of life in zircon  
     
-    + 3.8 billion years ago 
-    - meteor bombardment stops 
-    - Sedimentary rocks: weathering, ocean 
-  	- carbon isotopes also in graphite 
-	  - iron rich sedimentary rocks  
+    + 3.8 billion years ago  
+     meteor bombardment stops  
+     Sedimentary rocks: weathering, ocean  
+     carbon isotopes also in graphite  
+	   iron rich sedimentary rocks  
     
     + 3.5 billion years ago 
-    - Photosynthesis: ambigious microfossils 
-    - stromatolites (organosedimentary structures produced by microbial trappings, usually but not always photosynthetic)  
+      Photosynthesis: ambigious microfossils   
+      stromatolites (organosedimentary structures produced by microbial trappings, usually but not always photosynthetic)  
     
     + 3.0 billion years ago 
-    - Glaciation: Earth would have appeared brown 
+      Glaciation: Earth would have appeared brown  
 
     + 2.2 billion years ago 
-    - oxygen levels increased sharply 
-    - rock recognized as redbeds -> evidence for oxidation
+      oxygen levels increased sharply  
+      rock recognized as redbeds -> evidence for oxidation  
     
     + 2.1 billion years ago
-    - end of Snowball Earth 
+      end of Snowball Earth  
     
     + 1.9 billion years ago 
-    - Eukaryote emergence
-    
-    + 1.3 billion years ago
+      Eukaryote emergence  
     
     + 550 million years ago 
-    - Cambrian explosion
+      Cambrian explosion  
     
     + 400 million years ago
-    - emergence of land plants 
+      emergence of land plants  
     
-    + 200,000 years ago 
-    - *H. Sapiens* appear  
+    + 200,000 years ago  
+      *H. Sapiens* appear  
 
 
 * Describe the dominant physical and chemical characteristics of Earth systems at the following waypoints:  
 
     + Hadean 
-    - extremely hot >100^o^C ocean temperature
-    - seawater chemistry controlled by volcanism  
+      extremely hot >100^o^C ocean temperature  
+      seawater chemistry controlled by volcanism  
     
     + Archean  
-    - methanogenesis (early); Greenhouse effect because of CH~4~ and CO~2~ 
+      methanogenesis (early); Greenhouse effect because of CH~4~ and CO~2~  
     
     + Precambrian  
-    - reducing atmosphere  
-    - glaciation ended as greenhouse effec was enhanced by volcanoes  
-    - CO~2~ levels hundrends times higher than now  
+     reducing atmosphere  
+     glaciation ended as greenhouse effec was enhanced by volcanoes   
+     CO~2~ levels hundrends times higher than now   
     
     + Proterozoic  
-    - Snowball Earth 
-    - accumulation of oxygen in the Earth's atmosphere 
-    - filling of chemical sinks and increase carbon burtial 
-    - nitrogen concentration close to modern levels 
+      Snowball Earth  
+      accumulation of oxygen in the Earth's atmosphere   
+      filling of chemical sinks and increase carbon burtial  
+      nitrogen concentration close to modern levels  
     
     + Phanerozoic 
-    - carboniferous period 
-    - four separate glaciation periods
-    - higher oxygen levels
+      carboniferous period  
+      four separate glaciation periods  
+      higher oxygen levels  
     
