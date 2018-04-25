@@ -1,0 +1,57 @@
+---
+title: "Evidence_worksheet_05"
+author: "May Ho"
+date: "March 2018"
+output: html_document
+---
+
+### Evidence worksheet 05
+
+[Welch *et al* 2002](https://www.ncbi.nlm.nih.gov/pubmed/12471157)
+
+#### Learning objectives
+•	Evaluate the concept of microbial species based on environmental surveys and cultivation studies.
+
+•	Explain the relationship between microdiversity, genomic diversity and metabolic potential
+
+•	Comment on the forces mediating divergence and cohesion in natural microbial communities
+
+•	Comment on the creative tension between gene loss, duplication and acquisition as it relates to microbial genome evolution
+
+•	Identify common molecular signatures used to infer genomic identity and cohesion
+
+•	Differentiate between mobile elements and different modes of gene transfer
+
+
+#### General questions
+* What were the main questions being asked? 
+- The difference and similarity of the genomes of CFT073, enterohemorrhagic EDL933, and a nonpathogenic laboratory strain MG1655. How do they compare to each other? 
+What makes them distinct from one another? 
+ 
+
+* What were the primary methodological approaches used?  
+- Whole-genome libraries prepared from genomic DNA. 
+- Sequence analysis and annotation
+
+  
+* Summarize the main results or findings.  
+-	codon usage analysis says that set of backbone E.coli  genes that have a shared codon bias which creates a framework
+-	similar virulence genes come into play but linkage relationships and chromosomal locations vary 
+-	islands tend to have adaptive traits
+
+
+* Do new questions arise from the results? 
+- Why aren’t virulence plasmids associated with uropathogenic strains even though they are common to many E. coli isolates? 
+-	Should we define a species based on phenotypic traits?
+-	How to assess deletions that remove genes detrimental to uropathogenic lifestyle given the large number of genetic differences? 
+  
+	
+* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+- conclusions were sufficiently justified based on the evidence
+     
+* Based on your reading and discussion notes, explain the meaning and content of the following figure derived from the comparative genomic analysis of three E. coli genomes by Welch et al. Remember that CFT073 is a uropathogenic strain and that EDL933 is an enterohemorrhagic strain. Explain how this study relates to your understanding of ecotype diversity. Provide a definition of ecotype in the context of the human body. Explain why certain subsets of genes in CFT073 provide adaptive traits under your ecological model and speculate on their mode of vertical descent or gene transfer.
+- Different ecosystems have different environmental conditions that apply evolutionary pressure to a species, so it diverges into strains. 
+- Ecotype definition is equivalent to strains. So in this context there are two different strains: uropathogenic and enterohemorrhagic. 
+- I think pathogenic traits that are encoded in islands are transferred horizontal gene transfer, whereas the ancestral backbone genes (i.e. what groups them as a species) is vertically acquired. 
+
+	

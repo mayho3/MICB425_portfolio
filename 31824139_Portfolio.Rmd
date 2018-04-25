@@ -11,55 +11,51 @@ Reserve the first level headings (#) for the start of a new Module. This will he
 **Note: Please edit this template to your heart's content. This is meant to be the armature upon which you build your individual portfolio. You do not need to keep this instructive text in your final portfolio, although you do need to keep module and assignment names so we can identify what is what.**
 
 
-## Module 01 portfolio check
-The first of your second level headers (##) is to be used for the portfolio content checks. The Module 01 portfolio check has been built for you directly into this template, but will also be available as a stand-alone markdown document available on the MICB425 GitHub so that you know what is required in each module section in your portfolio. The completion status and comments will be filled in by the instructors during portfolio checks when your current portfolios are pulled from GitHub.
 
-* Installation check
-    + Completion status:
-    + Comments:
-* Portfolio repo setup
-    + Completion status: 
-    + Comments:
-* RMarkdown Pretty html Challenge
-    + Completion status:
-    + Comments:
+## Module 01 Portfolio Content
+
 * Evidence worksheet_01
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Evidence worksheet_02
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Evidence worksheet_03
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem Set_01
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem Set_02
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Writing assessment_01
     + Completion status:
     + Comments:
 * Additional Readings
     + Completion status:
-    + Comments  
-    
-## Module 02 Portfolio Content
+    + Comments: Need links.  
 
-* Evidence worksheet_04
-    + Completion status:
-    + Comments:
-* Problem Set_03
-    + Completion status:
-    + Comments:
-* Writing assessment_02
-    + CANCELED
-* Additional Readings
-    + Completion status:
-    + Comments 
-    
+
+
 ## Data science Friday  
+
+### Data Science
+
+* Installation check
+    + Completion status: X
+    + Comments:
+* Portfolio repo setup
+    + Completion status: X
+    + Comments:
+* RMarkdown Pretty PDF Challenge
+    + Completion status: X
+    + Comments:
+* ggplot
+    + Completion status: 9/10
+    + Comments: 
+    + Exercise 3 - check your plot title. Are you showing phyla?
+    + Exercise 4 - explore the 'scales' parameter within facet to allow the y axes to change scale in the separate facets.
 The remaining second level headers (##) are for separating data science Friday, regular course, and project content. In this module, you will only need to include data science Friday and regular course content; projects will come later in the course.
 
 ### Installation check
@@ -221,21 +217,56 @@ High prokaryotic abundance encourages the diversification of metabolic capabilit
 ```{r child = "Problem_set_02.Rmd"}
 ```
 
+```{r child = "essay_1.Rmd"}
+```
 
 ### Module 01 references
 Utilize this space to include a bibliography of any literature you want associated with this module. We recommend keeping this as the final header under each module.
 
-An example for Whitman and Wiebe (1998) has been included below.
+An example for Whitman and Wiebe (1998) has been included below.  
 
-Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+1. 	Achenbach J. 2012. Spaceship Earth: a new view of environmentalism. Washington Post 2–5.
+(https://www.washingtonpost.com/national/health-science/spaceship-earth-a-new-view-of-environmentalism/2011/12/29/gIQAZhH6WP_story.html)
+2. 	Canfield DE, Glazer AN, Falkowski PG. 2010. The evolution and future of earth’s nitrogen cycle. Science (80- ) 330:192–196.
+[PMID20929768](https://www.ncbi.nlm.nih.gov/pubmed/20929768)
+3. 	Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive earth’s biogeochemical cycles. Science (80- ) 320:1034–1039.
+[PMID18497287](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
+4. 	Kasting JF, Siefert JL. 2002. Life and the evolution of earth's atmosphere. Library (Lond) 296:1066–1069.
+[PMID12004117](https://www.ncbi.nlm.nih.gov/pubmed/12004117)
+5. 	Leopold AC, Pickett STA, Ostfeld RS, Shachak M, Likens GE. 1949. The land ethic of Aldo Leopold. J For 5–7.
+6. 	Nisbet EG, Sleep NH. 2001. The habitat and nature of early life. Nature 409:1083–1091.
+[PMID11234022](https://www.ncbi.nlm.nih.gov/pubmed/11234022)
+7. 	Falkowski P, Scholes RJ, Boyle E, Canadell J, Canfield D, Elser J, Gruber N, Hibbard K, Hogberg P, Linder S, Mackenzie FT, Moore B, Pedersen T, Rosental Y, Seitzinger S, Smetacek V, Steffen W. 2000. The global carbon cycle: A test of our knowledge of earth as a system. Science (80- ) 290:291–296.
+[PMID11030643](https://www.ncbi.nlm.nih.gov/pubmed/11030643)
+8. 	Kallmeyer J, Pockalny R, Adhikari RR, Smith DC, D’Hondt S. 2012. Global distribution of microbial abundance and biomass in subseafloor sediment. Proc Natl Acad Sci 109:16213–16216.
+[PMC3479597](https://www.ncbi.nlm.nih.gov/pubmed/22927371)
+9. 	Rockström J, Steffen W, Noone K, Persson Å, Chapin FS, Lambin E, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, Sörlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley J. 2009. Planetary boundaries: Exploring the safe operating space for humanity. Ecol Soc 14.
+[PMID19779433](https://www.ncbi.nlm.nih.gov/pubmed/19779433)
+10. Shrag, Geobiology of Anthropocene_2012.pdf.  
+11. Breitburg D, Levin LA, Oschlies A, Grégoire M, Chavez FP, Conley DJ, Garçon V, Gilbert D, Gutiérrez D, Isensee K, Jacinto GS, Limburg KE, Montes I, Naqvi SWA, Pitcher GC, Rabalais NN, Roman MR, Rose KA, Seibel BA, Telszewski M, Yasuhara M, Zhang J. 2018.Declining oxygen in the global ocean and coastal waters. Science (80- ) 359.
+[PMID29301986](https://www.ncbi.nlm.nih.gov/pubmed/29301986)
+12. Waters CN, Zalasiewicz J, Summerhayes C, Barnosky AD, Poirier C, Gałuszka A, Cearreta A, Edgeworth M, Ellis EC, Ellis M, Jeandel C, Leinfelder R, McNeill JR, Richter DDB, Steffen W, Syvitski J, Vidas D, Wagreich M, Williams M, Zhisheng A, Grinevald J, Odada E, Oreskes N, Wolfe AP. 2016. The Anthropocene is functionally and stratigraphically distinct from the Holocene. Science (80- ) 351.
+[PMID26744408](https://www.ncbi.nlm.nih.gov/pubmed/26744408)
+13. Whitman WB, Coleman DC, Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci 95:6578–6583.
+[PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
-Kasting JF, Siefert JL. 2002. Life and the evolution of earth â€TM s atmosphere. Library (Lond) 296:1066–1069.
 
-Canfield DE, Glazer AN, Falkowski PG. 2010. The evolution and future of earth’s nitrogen cycle. Science (80- ) 330:192–196.
-
-Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive earth’s biogeochemical cycles. Science (80- ) 320:1034–1039.
 
 # Module 2
+
+## Module 02 Portfolio Content
+
+* Evidence worksheet_04
+    + Completion status: X
+    + Comments:
+* Problem Set_03
+    + Completion status: X
+    + Comments:
+* Writing assessment_02
+    + CANCELED
+* Additional Readings
+    + Completion status:
+    + Comments 
 
 ```{r child = "Evidence_worksheet_04.Rmd"}
 ```
@@ -243,4 +274,116 @@ Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive earth
 ```{r child = "Problem_set_03.Rmd"}
 ```
 
+## Additional Readings
+1. 	Madsen EL. 2005. Madsen microbes eco biogeochem process Nature Micro Opinion 3.
+[PMID15864265](https://www.ncbi.nlm.nih.gov/pubmed/15864265)
+
+2. 	Martinez A, Bradley AS, Waldbauer JR, Summons RE, DeLong EF. 2007. Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. Proc Natl Acad Sci 104:5590–5595.
+[PMID17372221](https://www.ncbi.nlm.nih.gov/pubmed/17372221)
+
+3. 	Taupp M, Mewis K, Hallam SJ. 2011. The art and design of functional metagenomic screens. Curr Opin Biotechnol 22:465–472.
+[PMID21440432](https://www.ncbi.nlm.nih.gov/pubmed/21440432)
+
+4. 	Wooley JC, Godzik A, Friedberg I. 2010. A primer on metagenomics. PLoS Comput Biol 6.
+[PMID20195499](https://www.ncbi.nlm.nih.gov/pubmed/20195499)
+
+
+# Module 3
+
+## Module 03 Portfolio Content
+
+* Evidence worksheet_05
+    + Completion status:
+    + Comments:
+* Problem set_04
+    + Completion status:
+    + Comments:
+* Writing Assessment_03
+    + Completion status:
+    + Comments:
+* Additional Readings
+    + Completion status:
+    + Comments 
+    
+### Project 1
+
+* CATME account setup and survey
+    + Completion status: X
+    + Comments: 
+* CATME interim group assessment
+    + Completion status: X
+    + Comments:
+* Project 1
+    + Report (80%): 
+    + Participation (20%):
+
+```{r child = "Evidence_worksheet_05.Rmd"}
+```
+
+```{r child = "Problem_set_04.Rmd"}
+```
+
+```{r child = "essay_2.Rmd"}
+```
+
+##Project 1
+
+```{r}
+htmltools::tags$iframe(title="MICB425 Project 1", src="Proj1.html", height=1000, width=1000)
+```
+
+## Additional Readings
+1. 	Callahan BJ, McMurdie PJ, Holmes SP. 2017. Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. ISME J 11:2639–2643.
+[PMID28731476](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5702726/)
+
+2. 	Gaudet AD, Ramer LM, Nakonechny J, Cragg JJ, Ramer MS. 2010. Small-group learning in an upper-level university biology class enhances academic performance and student attitudes toward group work. PLoS One 5.
+[PMID21209910](https://www.ncbi.nlm.nih.gov/pubmed/21209910)
+
+3. 	Hallam SJ, Torres-Beltrán M, Hawley AK. 2017. Monitoring microbial responses to ocean deoxygenation in a model oxygen minimum zone. Sci Data 4:1–3.
+[PMID29087370](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5663219/)
+
+4. 	Hawley AK, Brewer HM, Norbeck AD, Pa a-Toli  L, Hallam SJ. 2014. Metaproteomics reveals differential modes of metabolic coupling among ubiquitous oxygen minimum zone microbes. Proc Natl Acad Sci 111:11395–11400.
+[PMID25053816](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4128106/)
+
+5. 	Kunin V, Engelbrektson A, Ochman H, Hugenholtz P. 2010. Wrinkles in the rare biosphere: Pyrosequencing errors can lead to artificial inflation of diversity estimates. Environ Microbiol 12:118–123.
+[PMID19725865](https://www.ncbi.nlm.nih.gov/pubmed/19725865)
+
+6. 	Cordero OX, Ventouras L-A, DeLong EF, Polz MF. 2012. Public good dynamics drive evolution of iron acquisition strategies in natural bacterioplankton populations. Proc Natl Acad Sci 109:20059–20064.
+[PMID23169633](https://www.ncbi.nlm.nih.gov/pubmed/23169633)
+
+7. 	Giovannoni SJ. 2012. Vitamins in the sea. Proc Natl Acad Sci 109:13888–13889.
+8. 	Lundin D, Severin I, Logue JB, Östman Ö, Andersson AF, Lindström ES. 2012. Which sequencing depth is sufficient to describe patterns in bacterial alpha- and beta-diversity? Environ Microbiol Rep 4:367–372.
+[PMID23760801](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1758-2229.2012.00345.x)
+
+9. 	Morris JJ, Lenski RE, Zinser ER. 2012. The Black Queen Hypothesis: Evolution of Dependencies through Adaptative Gene Loss. MBio 3:1–7.
+[PMID22448042](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3315703/)
+
+10. Thompson JR, Pacocha S, Pharino C, Klepac-Ceraj V, Hunt DE, Benoit J, Sarma-Rupavtarm R, Distel DL, Polz MF. 2005. Genotypic diversity within a natural coastal bacterioplankton population. Science (80- ) 307:1311–1313.
+[PMID15731455](https://www.ncbi.nlm.nih.gov/pubmed/15731455)
+
+11.	Welch RA, Burland V, Plunkett G, Redford P, Roesch P, Rasko D, Buckles EL, Liou S-R, Boutin A, Hackett J, Stroud D, Mayhew GF, Rose DJ, Zhou S, Schwartz DC, Perna NT, Mobley HLT, Donnenberg MS, Blattner FR. 2002. Extensive mosaic structure revealed by the complete genome sequence of uropathogenic Escherichia coli. Proc Natl Acad Sci U S A 99:17020–4.
+[PMID12471157](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC139262/)
+
+12. Torres-Beltrán M, Hawley AK, Capelle D, Zaikova E, Walsh DA, Mueller A, Scofield M, Payne C, Pakhomova L, Kheirandish S, Finke J, Bhatia M, Shevchuk O, Gies EA, Fairley D, Michiels C, Suttle CA, Whitney F, Crowe SA, Tortell PD, Hallam SJ. 2017. A compendium of geochemical information from the Saanich Inlet water column. Sci Data 4:1–10.
+[PMID29087371](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5663218/)
+
+13. Welch DBM, Huse SM. 2011. Microbial Diversity in the Deep Sea and the Underexplored “Rare Biosphere.” Handb Mol Microb Ecol II Metagenomics Differ Habitats 243–252.
+[PMID16880384](https://www.ncbi.nlm.nih.gov/pubmed/16880384)
+
+
+# Module 4
+## Module 04 Portfolio Content
+
+* CATME final group assessment
+    + Completion status: 
+    + Comments:
+* Project 2
+    + Report (80%): 
+    + Participation (20%):
+    
+## Project 2
+```{r}
+htmltools::tags$iframe(title="MICB425 Project 2", src="Proj2.html", height=1000, width=1000)
+```
+    
 

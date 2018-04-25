@@ -1,6 +1,6 @@
 ---
 title: "Problem Set_04"
-author: "Student Name (Student ID)"
+author: "Cheng Ching Ho (31824139)"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 editor_options: 
@@ -48,17 +48,19 @@ library(tidyverse)
 
 Then load in the data. You should use a similar format to record your community data.
 ```{r}
-example_data1 = data.frame(
-  number = c(1,2,3),
-  name = c("lion", "tiger", "bear"),
-  characteristics = c("brown cat", "striped cat", "not a cat"),
-  occurences = c(2, 4, 1)
-)
+seawater_data = read.csv("candy-data.csv",
+                           header = TRUE)
+seawater_data_small = read.csv("candy-data_small.csv",
+                               header = TRUE)
 ```
 
 Finally, use these data to create a table.
 ```{r}
-example_data1 %>% 
+seawater_data %>% 
+  kable("html") %>%
+  kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
+
+seawater_data_small %>%
   kable("html") %>%
   kable_styling(bootstrap_options = "striped", font_size = 10, full_width = F)
 ```
@@ -75,15 +77,13 @@ To construct the curve for your samples, choose a cell within the collection at 
 
 For example, we load in these data.
 ```{r}
-example_data2 = data.frame(
-  x = c(1,2,3,4,5,6,7,8,9,10),
-  y = c(1,2,3,4,4,5,5,5,6,6)
-)
+collection_curve = read.csv("collection_curve.csv", 
+                            header = FALSE)
 ```
 
 And then create a plot. We will use a scatterplot (geom_point) to plot the raw data and then add a smoother to see the overall trend of the data.
 ```{r}
-ggplot(example_data2, aes(x=x, y=y)) +
+ggplot(collection_curve, aes(x=V1, y=V2)) +
   geom_point() +
   geom_smooth() +
   labs(x="Cumulative number of individuals classified", y="Cumulative number of species observed")
@@ -107,17 +107,76 @@ $p_i$ = the fractional abundance of the $i^{th}$ species
 For example, using the example data 1 with 3 species with 2, 4, and 1 individuals each, D =
 
 ```{r}
-species1 = 2/(2+4+1)
-species2 = 4/(2+4+1)
-species3 = 1/(2+4+1)
+species1 = 28/(768)
+species2 = 28/(768)
+species3 = 60/(768)
+species4 = 44/(768)
+species5 = 30/768
+species6 = 63/768
+species7 = 39/768
+species8 = 33/768
+species9 = 42/768
+species10 = 35/768
+species11 = 23/768
+species12 = 15/768
+species13 = 16/768
+species14 = 18/768
+species15 = 15/768
+species16 = 19/768
+species17 = 16/768
+species18 = 39/768
+species19 = 36/768
+species20 = 27/768
+species21 = 32/768
+species22 = 40/768
+species23 = 14/768
+species24 = 4/768
+species25 = 5/768
+species26 = 3/768
+species27 = 5/768
+species28 = 7/768
+species29 = 16/768
+species30 = 7/768
+species31 = 5/768
+species32 = 4/768
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2 + species15^2 + species16^2 + species17^2 + species18^2 + species19^2 + species20^2 + species21^2 + species22^2 + species23^2 + species24^2 + species25^2 + species26^2 + species27^2 + species28^2 + species29^2 + species30^2 + species31^2 + species32^2)
 
-1 / (species1^2 + species2^2 + species3^2)
+Species1 = 3/121
+Species2 = 3/121
+Species3 = 2/121
+Species4 = 3/121
+Species5 = 1/121
+Species6 = 4/121
+Species7 = 1/121
+Species8 = 5/121
+Species9 = 10/121
+Species10 = 7/121
+Species11 = 12/121
+Species12 = 4/121
+Species13 = 4/121
+Species14 = 11/121
+Species15 = 5/121
+Species16 = 2/121
+Species17 = 1/121
+Species18 = 2/121
+Species19 = 4/121
+Species20 = 2/121
+Species21 = 10/121
+Species22 = 7/121
+Species23 = 5/121
+Species24 = 4/121
+Species25 = 6/121
+Species26 = 3/121
+
+1/ (Species1^2 + Species2^2 + Species3^2 + Species4^2 + Species5^2 + Species6^2 + Species7^2 + Species8^2 + Species9^2 + Species10^2 + Species11^2 + Species12^2 + Species13^2 + Species14^2 + Species15^2 + Species16^2 + Species17^2 + Species18^2 + Species19^2 + Species20^2 + Species21^2 + Species22^2 + Species23^2 + Species24^2 + Species25^2 + Species26^2 )
 ```
 
 The higher the value is, the greater the diversity. The maximum value is the number of species in the sample, which occurs when all species contain an equal number of individuals. Because the index reflects the number of species present (richness) and the relative proportions of each species with a community (evenness), this metric is a diveristy metric. Consider that a community can have the same number of species (equal richness) but manifest a skewed distribution in the proportion of each species (unequal evenness), which would result in different diveristy values.
 
 * What is the Simpson Reciprocal Index for your sample?
+  - 18.09
 * What is the Simpson Reciprocal Index for your original total community?
+  - 22.19 
 
 ##### Richness: Chao1 richness estimator
 Another way to calculate diversity is to estimate the number of species that are present in a sample based on the empirical data to give an upper boundary of the richness of a sample. Here, we use the Chao1 richness estimator. 
@@ -131,11 +190,15 @@ b = species observed twice or more
 So for our previous example community of 3 species with 2, 4, and 1 individuals each, $S_{chao1}$ =
 
 ```{r}
-3 + 1^2/(2*2)
+26 + 0/(26*2)
+
+32 + 0/(32*2)
 ```
 
 * What is the chao1 estimate for your sample?
+  - 26
 * What is the chao1 estimate for your original total community?
+  - 32
 
 #### Part 4: Alpha-diversity functions in R
 We've been doing the above calculations by hand, which is a very good exercise to aid in understanding the math behind these estimates. Not surprisingly, these same calculations can be done with R functions. Since we just have a species table, we will use the `vegan` package. You will need to install this package if you have not done so previously. 
@@ -146,22 +209,31 @@ library(vegan)
 
 First, we must remove the unnecesary data columns and transpose the data so that `vegan` reads it as a species table with species as columns and rows as samples (of which you only have 1).
 ```{r}
-example_data1_diversity = 
-  example_data1 %>% 
-  select(name, occurences) %>% 
-  spread(name, occurences)
+data_diversity = 
+  seawater_data %>% 
+  select(name, occurances) %>% 
+  spread(name, occurances)
 
-example_data1_diversity
+data_diversity
+
+small_data_diversity = 
+  seawater_data_small %>% 
+  select(name, occurances) %>% 
+  spread(name, occurances)
+
+small_data_diversity
 ```
 
 Then we can calculate the Simpson Reciprocal Index using the `diversity` function.
 ```{r}
-diversity(example_data1_diversity, index="invsimpson")
+diversity(data_diversity, index="invsimpson")
+diversity(small_data_diversity, index = "invsimpson")
 ```
 
 And we can calculate the Chao1 richness estimator (and others by default) with the the `specpool` function for extrapolated species richness. This function rounds to the nearest whole number so the value will be slightly different that what you've calculated above.
 ```{r}
-specpool(example_data1_diversity)
+specpool(data_diversity)
+specpool(small_data_diversity)
 ```
 
 In Project 1, you will also see functions for calculating alpha-diversity in the `phyloseq` package since we will be working with data in that form.
@@ -169,12 +241,21 @@ In Project 1, you will also see functions for calculating alpha-diversity in the
 For your sample:
 
 * What are the Simpson Reciprocal Indices for your sample and community using the R function?
+  - Community: 22.18
+  - Sample: 18.1
 * What are the chao1 estimates for your sample and community using the R function?
+  - Community: 32
+  - Sample: 26
     + Verify that these values match your previous calculations.
 
 #### Part 5: Concluding activity
 If you are stuck on some of these final questions, reading the [Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865) and [Lundin et al. 2012](https://www.ncbi.nlm.nih.gov/pubmed/23760801) papers may provide helpful insights. 
 
-* How does the measure of diversity depend on the definition of species in your samples?
-* Can you think of alternative ways to cluster or bin your data that might change the observed number of species?
-* How might different sequencing technologies influence observed diversity in a sample?
+* How does the measure of diversity depend on the definition of species in your samples? 
+  The more specific the definition of speices for our samples, the more diverse our samples appear to be. Whereas if we had a broader definition of what constitutes as a speices (e.g.grouping candy only by colour), then our diversity would lower. 
+  
+* Can you think of alternative ways to cluster or bin your data that might change the observed number of species? 
+  As mentioned, grouping the candy by only their shapes or colour would change the observed number of species. 
+* How might different sequencing technologies influence observed diversity in a sample? 
+  Some sequencing methods might overestimate the diversity and the number of species in a sample. 
+  

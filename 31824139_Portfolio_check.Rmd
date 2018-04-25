@@ -9,26 +9,26 @@ output: html_document
 **No assignments present in knit portfolio**
 
 * Evidence worksheet_01
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Evidence worksheet_02
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Evidence worksheet_03
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem Set_01
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem Set_02
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Writing assessment_01
     + Completion status:
     + Comments:
 * Additional Readings
     + Completion status:
-    + Comments  
+    + Comments: Need links.  
 
 ### Data Science
 
@@ -50,10 +50,10 @@ output: html_document
 ## Module 02 Portfolio Content
 
 * Evidence worksheet_04
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem Set_03
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Writing assessment_02
     + CANCELED
@@ -79,10 +79,10 @@ output: html_document
 ### Project 1
 
 * CATME account setup and survey
-    + Completion status: 
+    + Completion status: X
     + Comments: 
 * CATME interim group assessment
-    + Completion status: 
+    + Completion status: X
     + Comments:
 * Project 1
     + Report (80%): 
